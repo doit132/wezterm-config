@@ -6,7 +6,7 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { 'powershell' }
+   options.default_prog = { 'nu' }
    options.launch_menu = {
       { label = 'PowerShell Core', args = { 'pwsh' } },
       { label = 'PowerShell Desktop', args = { 'powershell' } },
@@ -14,7 +14,7 @@ if platform.is_win then
       { label = 'Nushell', args = { 'nu' } },
       {
          label = 'Git Bash',
-         args = { 'C:\\Users\\kevin\\scoop\\apps\\git\\current\\bin\\bash.exe' },
+         args = { 'C:/Users/doit132/scoop/apps/git/current/bin/bash.exe' },
       },
       {
          label = 'Alma Linux',
